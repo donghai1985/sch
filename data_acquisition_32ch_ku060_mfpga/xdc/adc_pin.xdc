@@ -1,0 +1,451 @@
+set_property -dict {PACKAGE_PIN AD34 IOSTANDARD LVDS    } [get_ports ADC_1_4_D0_A_N]
+set_property -dict {PACKAGE_PIN AC34 IOSTANDARD LVDS    } [get_ports ADC_1_4_D0_A_P]
+set_property -dict {PACKAGE_PIN AB34 IOSTANDARD LVDS    } [get_ports ADC_1_4_D0_B_N]
+set_property -dict {PACKAGE_PIN AA34 IOSTANDARD LVDS    } [get_ports ADC_1_4_D0_B_P]
+set_property -dict {PACKAGE_PIN W34	 IOSTANDARD LVDS    } [get_ports ADC_1_4_D0_C_N]
+set_property -dict {PACKAGE_PIN V33	 IOSTANDARD LVDS    } [get_ports ADC_1_4_D0_C_P]
+set_property -dict {PACKAGE_PIN Y30	 IOSTANDARD LVDS    } [get_ports ADC_1_4_D0_D_N]
+set_property -dict {PACKAGE_PIN W30	 IOSTANDARD LVDS    } [get_ports ADC_1_4_D0_D_P]
+set_property -dict {PACKAGE_PIN AD33 IOSTANDARD LVDS    } [get_ports ADC_1_4_D1_A_N]
+set_property -dict {PACKAGE_PIN AC33 IOSTANDARD LVDS    } [get_ports ADC_1_4_D1_A_P]
+set_property -dict {PACKAGE_PIN Y33	 IOSTANDARD LVDS    } [get_ports ADC_1_4_D1_B_N]
+set_property -dict {PACKAGE_PIN W33	 IOSTANDARD LVDS    } [get_ports ADC_1_4_D1_B_P]
+set_property -dict {PACKAGE_PIN Y32	 IOSTANDARD LVDS    } [get_ports ADC_1_4_D1_C_N]
+set_property -dict {PACKAGE_PIN Y31	 IOSTANDARD LVDS    } [get_ports ADC_1_4_D1_C_P]
+set_property -dict {PACKAGE_PIN AB29 IOSTANDARD LVDS    } [get_ports ADC_1_4_D1_D_N]
+set_property -dict {PACKAGE_PIN AA29 IOSTANDARD LVDS    } [get_ports ADC_1_4_D1_D_P]
+set_property -dict {PACKAGE_PIN AB31 IOSTANDARD LVDS    } [get_ports ADC_1_4_DCO_N]
+set_property -dict {PACKAGE_PIN AB30 IOSTANDARD LVDS    } [get_ports ADC_1_4_DCO_P]
+set_property -dict {PACKAGE_PIN AB32 IOSTANDARD LVDS    } [get_ports ADC_1_4_FCO_N]
+set_property -dict {PACKAGE_PIN AA32 IOSTANDARD LVDS    } [get_ports ADC_1_4_FCO_P]
+set_property -dict {PACKAGE_PIN V32	 IOSTANDARD LVCMOS18} [get_ports ADC_1_4_PDWN    ]
+set_property -dict {PACKAGE_PIN U34	 IOSTANDARD LVCMOS18} [get_ports ADC_1_4_SPI_CLK ]
+set_property -dict {PACKAGE_PIN W31	 IOSTANDARD LVCMOS18} [get_ports ADC_1_4_SPI_CSB ]
+set_property -dict {PACKAGE_PIN V34	 IOSTANDARD LVCMOS18} [get_ports ADC_1_4_SPI_SDIO]
+set_property -dict {PACKAGE_PIN V31	 IOSTANDARD LVCMOS18} [get_ports ADC_1_4_SYNC    ]
+
+
+set_property -dict {PACKAGE_PIN AG32 IOSTANDARD LVDS    } [get_ports ADC_5_8_D0_A_N]
+set_property -dict {PACKAGE_PIN AG31 IOSTANDARD LVDS    } [get_ports ADC_5_8_D0_A_P]
+set_property -dict {PACKAGE_PIN AG34 IOSTANDARD LVDS    } [get_ports ADC_5_8_D0_B_N]
+set_property -dict {PACKAGE_PIN AF33 IOSTANDARD LVDS    } [get_ports ADC_5_8_D0_B_P]
+set_property -dict {PACKAGE_PIN AG29 IOSTANDARD LVDS    } [get_ports ADC_5_8_D0_C_N]
+set_property -dict {PACKAGE_PIN AF29 IOSTANDARD LVDS    } [get_ports ADC_5_8_D0_C_P]
+set_property -dict {PACKAGE_PIN AD28 IOSTANDARD LVDS    } [get_ports ADC_5_8_D0_D_N]
+set_property -dict {PACKAGE_PIN AC28 IOSTANDARD LVDS    } [get_ports ADC_5_8_D0_D_P]
+set_property -dict {PACKAGE_PIN AF32 IOSTANDARD LVDS    } [get_ports ADC_5_8_D1_A_N]
+set_property -dict {PACKAGE_PIN AE32 IOSTANDARD LVDS    } [get_ports ADC_5_8_D1_A_P]
+set_property -dict {PACKAGE_PIN AF34 IOSTANDARD LVDS    } [get_ports ADC_5_8_D1_B_N]
+set_property -dict {PACKAGE_PIN AE33 IOSTANDARD LVDS    } [get_ports ADC_5_8_D1_B_P]
+set_property -dict {PACKAGE_PIN AF28 IOSTANDARD LVDS    } [get_ports ADC_5_8_D1_C_N]
+set_property -dict {PACKAGE_PIN AE28 IOSTANDARD LVDS    } [get_ports ADC_5_8_D1_C_P]
+set_property -dict {PACKAGE_PIN AF27 IOSTANDARD LVDS    } [get_ports ADC_5_8_D1_D_N]
+set_property -dict {PACKAGE_PIN AE27 IOSTANDARD LVDS    } [get_ports ADC_5_8_D1_D_P]
+set_property -dict {PACKAGE_PIN AC32 IOSTANDARD LVDS    } [get_ports ADC_5_8_DCO_N]
+set_property -dict {PACKAGE_PIN AC31 IOSTANDARD LVDS    } [get_ports ADC_5_8_DCO_P]
+set_property -dict {PACKAGE_PIN AD31 IOSTANDARD LVDS    } [get_ports ADC_5_8_FCO_N]
+set_property -dict {PACKAGE_PIN AD30 IOSTANDARD LVDS    } [get_ports ADC_5_8_FCO_P]
+set_property -dict {PACKAGE_PIN AE31 IOSTANDARD LVCMOS18} [get_ports ADC_5_8_PDWN    ]
+set_property -dict {PACKAGE_PIN AG30 IOSTANDARD LVCMOS18} [get_ports ADC_5_8_SPI_CLK ]
+set_property -dict {PACKAGE_PIN AF30 IOSTANDARD LVCMOS18} [get_ports ADC_5_8_SPI_CSB ]
+set_property -dict {PACKAGE_PIN AE30 IOSTANDARD LVCMOS18} [get_ports ADC_5_8_SPI_SDIO]
+set_property -dict {PACKAGE_PIN AD29 IOSTANDARD LVCMOS18} [get_ports ADC_5_8_SYNC    ]
+
+
+set_property -dict {PACKAGE_PIN AP31 IOSTANDARD LVDS    } [get_ports ADC_9_12_D0_A_N]
+set_property -dict {PACKAGE_PIN AN31 IOSTANDARD LVDS    } [get_ports ADC_9_12_D0_A_P]
+set_property -dict {PACKAGE_PIN AP33 IOSTANDARD LVDS    } [get_ports ADC_9_12_D0_B_N]
+set_property -dict {PACKAGE_PIN AN33 IOSTANDARD LVDS    } [get_ports ADC_9_12_D0_B_P]
+set_property -dict {PACKAGE_PIN AJ34 IOSTANDARD LVDS    } [get_ports ADC_9_12_D0_C_N]
+set_property -dict {PACKAGE_PIN AH34 IOSTANDARD LVDS    } [get_ports ADC_9_12_D0_C_P]
+set_property -dict {PACKAGE_PIN AH32 IOSTANDARD LVDS    } [get_ports ADC_9_12_D0_D_N]
+set_property -dict {PACKAGE_PIN AH31 IOSTANDARD LVDS    } [get_ports ADC_9_12_D0_D_P]
+set_property -dict {PACKAGE_PIN AP34 IOSTANDARD LVDS    } [get_ports ADC_9_12_D1_A_N]
+set_property -dict {PACKAGE_PIN AN34 IOSTANDARD LVDS    } [get_ports ADC_9_12_D1_A_P]
+set_property -dict {PACKAGE_PIN AL33 IOSTANDARD LVDS    } [get_ports ADC_9_12_D1_B_N]
+set_property -dict {PACKAGE_PIN AL32 IOSTANDARD LVDS    } [get_ports ADC_9_12_D1_B_P]
+set_property -dict {PACKAGE_PIN AJ33 IOSTANDARD LVDS    } [get_ports ADC_9_12_D1_C_N]
+set_property -dict {PACKAGE_PIN AH33 IOSTANDARD LVDS    } [get_ports ADC_9_12_D1_C_P]
+set_property -dict {PACKAGE_PIN AJ31 IOSTANDARD LVDS    } [get_ports ADC_9_12_D1_D_N]
+set_property -dict {PACKAGE_PIN AJ30 IOSTANDARD LVDS    } [get_ports ADC_9_12_D1_D_P]
+set_property -dict {PACKAGE_PIN AK30 IOSTANDARD LVDS    } [get_ports ADC_9_12_DCO_N]
+set_property -dict {PACKAGE_PIN AJ29 IOSTANDARD LVDS    } [get_ports ADC_9_12_DCO_P]
+set_property -dict {PACKAGE_PIN AK32 IOSTANDARD LVDS    } [get_ports ADC_9_12_FCO_N]
+set_property -dict {PACKAGE_PIN AK31 IOSTANDARD LVDS    } [get_ports ADC_9_12_FCO_P]
+set_property -dict {PACKAGE_PIN AK33 IOSTANDARD LVCMOS18} [get_ports ADC_9_12_PDWN    ]
+set_property -dict {PACKAGE_PIN AM32 IOSTANDARD LVCMOS18} [get_ports ADC_9_12_SPI_CLK ]
+set_property -dict {PACKAGE_PIN AM34 IOSTANDARD LVCMOS18} [get_ports ADC_9_12_SPI_CSB ]
+set_property -dict {PACKAGE_PIN AN32 IOSTANDARD LVCMOS18} [get_ports ADC_9_12_SPI_SDIO]
+set_property -dict {PACKAGE_PIN AL34 IOSTANDARD LVCMOS18} [get_ports ADC_9_12_SYNC    ]
+
+
+set_property -dict {PACKAGE_PIN AJ26 IOSTANDARD LVDS    } [get_ports ADC_13_16_D0_A_N]
+set_property -dict {PACKAGE_PIN AH26 IOSTANDARD LVDS    } [get_ports ADC_13_16_D0_A_P]
+set_property -dict {PACKAGE_PIN AL28 IOSTANDARD LVDS    } [get_ports ADC_13_16_D0_B_N]
+set_property -dict {PACKAGE_PIN AL27 IOSTANDARD LVDS    } [get_ports ADC_13_16_D0_B_P]
+set_property -dict {PACKAGE_PIN AP29 IOSTANDARD LVDS    } [get_ports ADC_13_16_D0_C_N]
+set_property -dict {PACKAGE_PIN AP28 IOSTANDARD LVDS    } [get_ports ADC_13_16_D0_C_P]
+set_property -dict {PACKAGE_PIN AN28 IOSTANDARD LVDS    } [get_ports ADC_13_16_D0_D_N]
+set_property -dict {PACKAGE_PIN AN27 IOSTANDARD LVDS    } [get_ports ADC_13_16_D0_D_P]
+set_property -dict {PACKAGE_PIN AK27 IOSTANDARD LVDS    } [get_ports ADC_13_16_D1_A_N]
+set_property -dict {PACKAGE_PIN AK26 IOSTANDARD LVDS    } [get_ports ADC_13_16_D1_A_P]
+set_property -dict {PACKAGE_PIN AP26 IOSTANDARD LVDS    } [get_ports ADC_13_16_D1_B_N]
+set_property -dict {PACKAGE_PIN AN26 IOSTANDARD LVDS    } [get_ports ADC_13_16_D1_B_P]
+set_property -dict {PACKAGE_PIN AP30 IOSTANDARD LVDS    } [get_ports ADC_13_16_D1_C_N]
+set_property -dict {PACKAGE_PIN AN29 IOSTANDARD LVDS    } [get_ports ADC_13_16_D1_C_P]
+set_property -dict {PACKAGE_PIN AM27 IOSTANDARD LVDS    } [get_ports ADC_13_16_D1_D_N]
+set_property -dict {PACKAGE_PIN AM26 IOSTANDARD LVDS    } [get_ports ADC_13_16_D1_D_P]
+set_property -dict {PACKAGE_PIN AM29 IOSTANDARD LVDS    } [get_ports ADC_13_16_DCO_N]
+set_property -dict {PACKAGE_PIN AL29 IOSTANDARD LVDS    } [get_ports ADC_13_16_DCO_P]
+set_property -dict {PACKAGE_PIN AM30 IOSTANDARD LVDS    } [get_ports ADC_13_16_FCO_N]
+set_property -dict {PACKAGE_PIN AL30 IOSTANDARD LVDS    } [get_ports ADC_13_16_FCO_P]
+set_property -dict {PACKAGE_PIN AM31 IOSTANDARD LVCMOS18} [get_ports ADC_13_16_PDWN    ]
+set_property -dict {PACKAGE_PIN AH27 IOSTANDARD LVCMOS18} [get_ports ADC_13_16_SPI_CLK ]
+set_property -dict {PACKAGE_PIN AK28 IOSTANDARD LVCMOS18} [get_ports ADC_13_16_SPI_CSB ]
+set_property -dict {PACKAGE_PIN AH28 IOSTANDARD LVCMOS18} [get_ports ADC_13_16_SPI_SDIO]
+set_property -dict {PACKAGE_PIN AJ28 IOSTANDARD LVCMOS18} [get_ports ADC_13_16_SYNC    ]
+
+
+set_property -dict {PACKAGE_PIN AK20 IOSTANDARD LVDS    } [get_ports ADC_17_20_D0_A_N]
+set_property -dict {PACKAGE_PIN AJ20 IOSTANDARD LVDS    } [get_ports ADC_17_20_D0_A_P]
+set_property -dict {PACKAGE_PIN AN21 IOSTANDARD LVDS    } [get_ports ADC_17_20_D0_B_N]
+set_property -dict {PACKAGE_PIN AM21 IOSTANDARD LVDS    } [get_ports ADC_17_20_D0_B_P]
+set_property -dict {PACKAGE_PIN AN22 IOSTANDARD LVDS    } [get_ports ADC_17_20_D0_C_N]
+set_property -dict {PACKAGE_PIN AM22 IOSTANDARD LVDS    } [get_ports ADC_17_20_D0_C_P]
+set_property -dict {PACKAGE_PIN AN24 IOSTANDARD LVDS    } [get_ports ADC_17_20_D0_D_N]
+set_property -dict {PACKAGE_PIN AM24 IOSTANDARD LVDS    } [get_ports ADC_17_20_D0_D_P]
+set_property -dict {PACKAGE_PIN AM20 IOSTANDARD LVDS    } [get_ports ADC_17_20_D1_A_N]
+set_property -dict {PACKAGE_PIN AL20 IOSTANDARD LVDS    } [get_ports ADC_17_20_D1_A_P]
+set_property -dict {PACKAGE_PIN AP21 IOSTANDARD LVDS    } [get_ports ADC_17_20_D1_B_N]
+set_property -dict {PACKAGE_PIN AP20 IOSTANDARD LVDS    } [get_ports ADC_17_20_D1_B_P]
+set_property -dict {PACKAGE_PIN AL23 IOSTANDARD LVDS    } [get_ports ADC_17_20_D1_C_N]
+set_property -dict {PACKAGE_PIN AL22 IOSTANDARD LVDS    } [get_ports ADC_17_20_D1_C_P]
+set_property -dict {PACKAGE_PIN AL25 IOSTANDARD LVDS    } [get_ports ADC_17_20_D1_D_N]
+set_property -dict {PACKAGE_PIN AL24 IOSTANDARD LVDS    } [get_ports ADC_17_20_D1_D_P]
+set_property -dict {PACKAGE_PIN AK23 IOSTANDARD LVDS    } [get_ports ADC_17_20_DCO_N]
+set_property -dict {PACKAGE_PIN AK22 IOSTANDARD LVDS    } [get_ports ADC_17_20_DCO_P]
+set_property -dict {PACKAGE_PIN AK21 IOSTANDARD LVDS    } [get_ports ADC_17_20_FCO_N]
+set_property -dict {PACKAGE_PIN AJ21 IOSTANDARD LVDS    } [get_ports ADC_17_20_FCO_P]
+set_property -dict {PACKAGE_PIN AM25 IOSTANDARD LVCMOS18} [get_ports ADC_17_20_PDWN    ]
+set_property -dict {PACKAGE_PIN AP24 IOSTANDARD LVCMOS18} [get_ports ADC_17_20_SPI_CLK ]
+set_property -dict {PACKAGE_PIN AP23 IOSTANDARD LVCMOS18} [get_ports ADC_17_20_SPI_CSB ]
+set_property -dict {PACKAGE_PIN AP25 IOSTANDARD LVCMOS18} [get_ports ADC_17_20_SPI_SDIO]
+set_property -dict {PACKAGE_PIN AN23 IOSTANDARD LVCMOS18} [get_ports ADC_17_20_SYNC    ]
+
+
+set_property -dict {PACKAGE_PIN AJ25 IOSTANDARD LVDS    } [get_ports ADC_21_24_D0_A_N]
+set_property -dict {PACKAGE_PIN AH24 IOSTANDARD LVDS    } [get_ports ADC_21_24_D0_A_P]
+set_property -dict {PACKAGE_PIN AG20 IOSTANDARD LVDS    } [get_ports ADC_21_24_D0_B_N]
+set_property -dict {PACKAGE_PIN AF20 IOSTANDARD LVDS    } [get_ports ADC_21_24_D0_B_P]
+set_property -dict {PACKAGE_PIN AG25 IOSTANDARD LVDS    } [get_ports ADC_21_24_D0_C_N]
+set_property -dict {PACKAGE_PIN AG24 IOSTANDARD LVDS    } [get_ports ADC_21_24_D0_C_P]
+set_property -dict {PACKAGE_PIN AE26 IOSTANDARD LVDS    } [get_ports ADC_21_24_D0_D_N]
+set_property -dict {PACKAGE_PIN AE25 IOSTANDARD LVDS    } [get_ports ADC_21_24_D0_D_P]
+set_property -dict {PACKAGE_PIN AH21 IOSTANDARD LVDS    } [get_ports ADC_21_24_D1_A_N]
+set_property -dict {PACKAGE_PIN AG21 IOSTANDARD LVDS    } [get_ports ADC_21_24_D1_A_P]
+set_property -dict {PACKAGE_PIN AE20 IOSTANDARD LVDS    } [get_ports ADC_21_24_D1_B_N]
+set_property -dict {PACKAGE_PIN AD20 IOSTANDARD LVDS    } [get_ports ADC_21_24_D1_B_P]
+set_property -dict {PACKAGE_PIN AF24 IOSTANDARD LVDS    } [get_ports ADC_21_24_D1_C_N]
+set_property -dict {PACKAGE_PIN AF23 IOSTANDARD LVDS    } [get_ports ADC_21_24_D1_C_P]
+set_property -dict {PACKAGE_PIN AE21 IOSTANDARD LVDS    } [get_ports ADC_21_24_D1_D_N]
+set_property -dict {PACKAGE_PIN AD21 IOSTANDARD LVDS    } [get_ports ADC_21_24_D1_D_P]
+set_property -dict {PACKAGE_PIN AH23 IOSTANDARD LVDS    } [get_ports ADC_21_24_DCO_N]
+set_property -dict {PACKAGE_PIN AH22 IOSTANDARD LVDS    } [get_ports ADC_21_24_DCO_P]
+set_property -dict {PACKAGE_PIN AJ24 IOSTANDARD LVDS    } [get_ports ADC_21_24_FCO_N]
+set_property -dict {PACKAGE_PIN AJ23 IOSTANDARD LVDS    } [get_ports ADC_21_24_FCO_P]
+set_property -dict {PACKAGE_PIN AF25 IOSTANDARD LVCMOS18} [get_ports ADC_21_24_PDWN    ]
+set_property -dict {PACKAGE_PIN AF22 IOSTANDARD LVCMOS18} [get_ports ADC_21_24_SPI_CLK ]
+set_property -dict {PACKAGE_PIN AE23 IOSTANDARD LVCMOS18} [get_ports ADC_21_24_SPI_CSB ]
+set_property -dict {PACKAGE_PIN AG22 IOSTANDARD LVCMOS18} [get_ports ADC_21_24_SPI_SDIO]
+set_property -dict {PACKAGE_PIN AE22 IOSTANDARD LVCMOS18} [get_ports ADC_21_24_SYNC    ]
+
+
+set_property -dict {PACKAGE_PIN AF18 IOSTANDARD LVDS    } [get_ports ADC_25_28_D0_A_N]
+set_property -dict {PACKAGE_PIN AE18 IOSTANDARD LVDS    } [get_ports ADC_25_28_D0_A_P]
+set_property -dict {PACKAGE_PIN AF14 IOSTANDARD LVDS    } [get_ports ADC_25_28_D0_B_N]
+set_property -dict {PACKAGE_PIN AF15 IOSTANDARD LVDS    } [get_ports ADC_25_28_D0_B_P]
+set_property -dict {PACKAGE_PIN AJ14 IOSTANDARD LVDS    } [get_ports ADC_25_28_D0_C_N]
+set_property -dict {PACKAGE_PIN AJ15 IOSTANDARD LVDS    } [get_ports ADC_25_28_D0_C_P]
+set_property -dict {PACKAGE_PIN AH19 IOSTANDARD LVDS    } [get_ports ADC_25_28_D0_D_N]
+set_property -dict {PACKAGE_PIN AG19 IOSTANDARD LVDS    } [get_ports ADC_25_28_D0_D_P]
+set_property -dict {PACKAGE_PIN AE15 IOSTANDARD LVDS    } [get_ports ADC_25_28_D1_A_N]
+set_property -dict {PACKAGE_PIN AE16 IOSTANDARD LVDS    } [get_ports ADC_25_28_D1_A_P]
+set_property -dict {PACKAGE_PIN AG14 IOSTANDARD LVDS    } [get_ports ADC_25_28_D1_B_N]
+set_property -dict {PACKAGE_PIN AG15 IOSTANDARD LVDS    } [get_ports ADC_25_28_D1_B_P]
+set_property -dict {PACKAGE_PIN AG16 IOSTANDARD LVDS    } [get_ports ADC_25_28_D1_C_N]
+set_property -dict {PACKAGE_PIN AG17 IOSTANDARD LVDS    } [get_ports ADC_25_28_D1_C_P]
+set_property -dict {PACKAGE_PIN AD18 IOSTANDARD LVDS    } [get_ports ADC_25_28_D1_D_N]
+set_property -dict {PACKAGE_PIN AD19 IOSTANDARD LVDS    } [get_ports ADC_25_28_D1_D_P]
+set_property -dict {PACKAGE_PIN AJ16 IOSTANDARD LVDS    } [get_ports ADC_25_28_DCO_N]
+set_property -dict {PACKAGE_PIN AH16 IOSTANDARD LVDS    } [get_ports ADC_25_28_DCO_P]
+set_property -dict {PACKAGE_PIN AH17 IOSTANDARD LVDS    } [get_ports ADC_25_28_FCO_N]
+set_property -dict {PACKAGE_PIN AH18 IOSTANDARD LVDS    } [get_ports ADC_25_28_FCO_P]
+set_property -dict {PACKAGE_PIN AD14 IOSTANDARD LVCMOS18} [get_ports ADC_25_28_PDWN    ]
+set_property -dict {PACKAGE_PIN AE17 IOSTANDARD LVCMOS18} [get_ports ADC_25_28_SPI_CLK ]
+set_property -dict {PACKAGE_PIN AD15 IOSTANDARD LVCMOS18} [get_ports ADC_25_28_SPI_CSB ]
+set_property -dict {PACKAGE_PIN AF17 IOSTANDARD LVCMOS18} [get_ports ADC_25_28_SPI_SDIO]
+set_property -dict {PACKAGE_PIN AD16 IOSTANDARD LVCMOS18} [get_ports ADC_25_28_SYNC    ]
+
+
+set_property -dict {PACKAGE_PIN AN16 IOSTANDARD LVDS    } [get_ports ADC_29_32_D0_A_N]
+set_property -dict {PACKAGE_PIN AM17 IOSTANDARD LVDS    } [get_ports ADC_29_32_D0_A_P]
+set_property -dict {PACKAGE_PIN AM14 IOSTANDARD LVDS    } [get_ports ADC_29_32_D0_B_N]
+set_property -dict {PACKAGE_PIN AL14 IOSTANDARD LVDS    } [get_ports ADC_29_32_D0_B_P]
+set_property -dict {PACKAGE_PIN AN17 IOSTANDARD LVDS    } [get_ports ADC_29_32_D0_C_N]
+set_property -dict {PACKAGE_PIN AN18 IOSTANDARD LVDS    } [get_ports ADC_29_32_D0_C_P]
+set_property -dict {PACKAGE_PIN AP18 IOSTANDARD LVDS    } [get_ports ADC_29_32_D0_D_N]
+set_property -dict {PACKAGE_PIN AN19 IOSTANDARD LVDS    } [get_ports ADC_29_32_D0_D_P]
+set_property -dict {PACKAGE_PIN AL15 IOSTANDARD LVDS    } [get_ports ADC_29_32_D1_A_N]
+set_property -dict {PACKAGE_PIN AK15 IOSTANDARD LVDS    } [get_ports ADC_29_32_D1_A_P]
+set_property -dict {PACKAGE_PIN AP14 IOSTANDARD LVDS    } [get_ports ADC_29_32_D1_B_N]
+set_property -dict {PACKAGE_PIN AN14 IOSTANDARD LVDS    } [get_ports ADC_29_32_D1_B_P]
+set_property -dict {PACKAGE_PIN AL17 IOSTANDARD LVDS    } [get_ports ADC_29_32_D1_C_N]
+set_property -dict {PACKAGE_PIN AL18 IOSTANDARD LVDS    } [get_ports ADC_29_32_D1_C_P]
+set_property -dict {PACKAGE_PIN AM19 IOSTANDARD LVDS    } [get_ports ADC_29_32_D1_D_N]
+set_property -dict {PACKAGE_PIN AL19 IOSTANDARD LVDS    } [get_ports ADC_29_32_D1_D_P]
+set_property -dict {PACKAGE_PIN AK16 IOSTANDARD LVDS    } [get_ports ADC_29_32_DCO_N]
+set_property -dict {PACKAGE_PIN AK17 IOSTANDARD LVDS    } [get_ports ADC_29_32_DCO_P]
+set_property -dict {PACKAGE_PIN AK18 IOSTANDARD LVDS    } [get_ports ADC_29_32_FCO_N]
+set_property -dict {PACKAGE_PIN AJ18 IOSTANDARD LVDS    } [get_ports ADC_29_32_FCO_P]
+set_property -dict {PACKAGE_PIN AJ19 IOSTANDARD LVCMOS18} [get_ports ADC_29_32_PDWN    ]
+set_property -dict {PACKAGE_PIN AM16 IOSTANDARD LVCMOS18} [get_ports ADC_29_32_SPI_CLK ]
+set_property -dict {PACKAGE_PIN AP15 IOSTANDARD LVCMOS18} [get_ports ADC_29_32_SPI_CSB ]
+set_property -dict {PACKAGE_PIN AM15 IOSTANDARD LVCMOS18} [get_ports ADC_29_32_SPI_SDIO]
+set_property -dict {PACKAGE_PIN AP16 IOSTANDARD LVCMOS18} [get_ports ADC_29_32_SYNC    ]
+
+
+
+# ----------------------------------------------------------------------------------------------
+
+
+
+
+set_property DIFF_TERM true  [get_ports ADC_1_4_D0_A_N]
+set_property DIFF_TERM true  [get_ports ADC_1_4_D0_A_P]
+set_property DIFF_TERM true  [get_ports ADC_1_4_D1_A_N]
+set_property DIFF_TERM true  [get_ports ADC_1_4_D1_A_P]
+set_property DIFF_TERM true  [get_ports ADC_1_4_D0_B_N]
+set_property DIFF_TERM true  [get_ports ADC_1_4_D0_B_P]
+set_property DIFF_TERM true  [get_ports ADC_1_4_D1_B_N]
+set_property DIFF_TERM true  [get_ports ADC_1_4_D1_B_P]
+set_property DIFF_TERM true  [get_ports ADC_1_4_D0_C_N]
+set_property DIFF_TERM true  [get_ports ADC_1_4_D0_C_P]
+set_property DIFF_TERM true  [get_ports ADC_1_4_D1_C_N]
+set_property DIFF_TERM true  [get_ports ADC_1_4_D1_C_P]
+set_property DIFF_TERM true  [get_ports ADC_1_4_D0_D_N]
+set_property DIFF_TERM true  [get_ports ADC_1_4_D0_D_P]
+set_property DIFF_TERM true  [get_ports ADC_1_4_D1_D_N]
+set_property DIFF_TERM true  [get_ports ADC_1_4_D1_D_P]
+set_property DIFF_TERM true  [get_ports ADC_1_4_FCO_N]
+set_property DIFF_TERM true  [get_ports ADC_1_4_FCO_P]
+set_property DIFF_TERM true  [get_ports ADC_1_4_DCO_N]
+set_property DIFF_TERM true  [get_ports ADC_1_4_DCO_P]
+
+
+set_property DIFF_TERM true  [get_ports ADC_5_8_D0_A_N]
+set_property DIFF_TERM true  [get_ports ADC_5_8_D0_A_P]
+set_property DIFF_TERM true  [get_ports ADC_5_8_D1_A_N]
+set_property DIFF_TERM true  [get_ports ADC_5_8_D1_A_P]
+set_property DIFF_TERM true  [get_ports ADC_5_8_D0_B_N]
+set_property DIFF_TERM true  [get_ports ADC_5_8_D0_B_P]
+set_property DIFF_TERM true  [get_ports ADC_5_8_D1_B_N]
+set_property DIFF_TERM true  [get_ports ADC_5_8_D1_B_P]
+set_property DIFF_TERM true  [get_ports ADC_5_8_D0_C_N]
+set_property DIFF_TERM true  [get_ports ADC_5_8_D0_C_P]
+set_property DIFF_TERM true  [get_ports ADC_5_8_D1_C_N]
+set_property DIFF_TERM true  [get_ports ADC_5_8_D1_C_P]
+set_property DIFF_TERM true  [get_ports ADC_5_8_D0_D_N]
+set_property DIFF_TERM true  [get_ports ADC_5_8_D0_D_P]
+set_property DIFF_TERM true  [get_ports ADC_5_8_D1_D_N]
+set_property DIFF_TERM true  [get_ports ADC_5_8_D1_D_P]
+set_property DIFF_TERM true  [get_ports ADC_5_8_FCO_N]
+set_property DIFF_TERM true  [get_ports ADC_5_8_FCO_P]
+set_property DIFF_TERM true  [get_ports ADC_5_8_DCO_N]
+set_property DIFF_TERM true  [get_ports ADC_5_8_DCO_P]
+
+
+set_property DIFF_TERM true  [get_ports ADC_9_12_D0_A_N]
+set_property DIFF_TERM true  [get_ports ADC_9_12_D0_A_P]
+set_property DIFF_TERM true  [get_ports ADC_9_12_D1_A_N]
+set_property DIFF_TERM true  [get_ports ADC_9_12_D1_A_P]
+set_property DIFF_TERM true  [get_ports ADC_9_12_D0_B_N]
+set_property DIFF_TERM true  [get_ports ADC_9_12_D0_B_P]
+set_property DIFF_TERM true  [get_ports ADC_9_12_D1_B_N]
+set_property DIFF_TERM true  [get_ports ADC_9_12_D1_B_P]
+set_property DIFF_TERM true  [get_ports ADC_9_12_D0_C_N]
+set_property DIFF_TERM true  [get_ports ADC_9_12_D0_C_P]
+set_property DIFF_TERM true  [get_ports ADC_9_12_D1_C_N]
+set_property DIFF_TERM true  [get_ports ADC_9_12_D1_C_P]
+set_property DIFF_TERM true  [get_ports ADC_9_12_D0_D_N]
+set_property DIFF_TERM true  [get_ports ADC_9_12_D0_D_P]
+set_property DIFF_TERM true  [get_ports ADC_9_12_D1_D_N]
+set_property DIFF_TERM true  [get_ports ADC_9_12_D1_D_P]
+set_property DIFF_TERM true  [get_ports ADC_9_12_FCO_N]
+set_property DIFF_TERM true  [get_ports ADC_9_12_FCO_P]
+set_property DIFF_TERM true  [get_ports ADC_9_12_DCO_N]
+set_property DIFF_TERM true  [get_ports ADC_9_12_DCO_P]
+
+
+
+set_property DIFF_TERM true  [get_ports ADC_13_16_D0_A_N]
+set_property DIFF_TERM true  [get_ports ADC_13_16_D0_A_P]
+set_property DIFF_TERM true  [get_ports ADC_13_16_D1_A_N]
+set_property DIFF_TERM true  [get_ports ADC_13_16_D1_A_P]
+set_property DIFF_TERM true  [get_ports ADC_13_16_D0_B_N]
+set_property DIFF_TERM true  [get_ports ADC_13_16_D0_B_P]
+set_property DIFF_TERM true  [get_ports ADC_13_16_D1_B_N]
+set_property DIFF_TERM true  [get_ports ADC_13_16_D1_B_P]
+set_property DIFF_TERM true  [get_ports ADC_13_16_D0_C_N]
+set_property DIFF_TERM true  [get_ports ADC_13_16_D0_C_P]
+set_property DIFF_TERM true  [get_ports ADC_13_16_D1_C_N]
+set_property DIFF_TERM true  [get_ports ADC_13_16_D1_C_P]
+set_property DIFF_TERM true  [get_ports ADC_13_16_D0_D_N]
+set_property DIFF_TERM true  [get_ports ADC_13_16_D0_D_P]
+set_property DIFF_TERM true  [get_ports ADC_13_16_D1_D_N]
+set_property DIFF_TERM true  [get_ports ADC_13_16_D1_D_P]
+set_property DIFF_TERM true  [get_ports ADC_13_16_FCO_N]
+set_property DIFF_TERM true  [get_ports ADC_13_16_FCO_P]
+set_property DIFF_TERM true  [get_ports ADC_13_16_DCO_N]
+set_property DIFF_TERM true  [get_ports ADC_13_16_DCO_P]
+
+
+
+set_property DIFF_TERM true  [get_ports ADC_17_20_D0_A_N]
+set_property DIFF_TERM true  [get_ports ADC_17_20_D0_A_P]
+set_property DIFF_TERM true  [get_ports ADC_17_20_D1_A_N]
+set_property DIFF_TERM true  [get_ports ADC_17_20_D1_A_P]
+set_property DIFF_TERM true  [get_ports ADC_17_20_D0_B_N]
+set_property DIFF_TERM true  [get_ports ADC_17_20_D0_B_P]
+set_property DIFF_TERM true  [get_ports ADC_17_20_D1_B_N]
+set_property DIFF_TERM true  [get_ports ADC_17_20_D1_B_P]
+set_property DIFF_TERM true  [get_ports ADC_17_20_D0_C_N]
+set_property DIFF_TERM true  [get_ports ADC_17_20_D0_C_P]
+set_property DIFF_TERM true  [get_ports ADC_17_20_D1_C_N]
+set_property DIFF_TERM true  [get_ports ADC_17_20_D1_C_P]
+set_property DIFF_TERM true  [get_ports ADC_17_20_D0_D_N]
+set_property DIFF_TERM true  [get_ports ADC_17_20_D0_D_P]
+set_property DIFF_TERM true  [get_ports ADC_17_20_D1_D_N]
+set_property DIFF_TERM true  [get_ports ADC_17_20_D1_D_P]
+set_property DIFF_TERM true  [get_ports ADC_17_20_FCO_N]
+set_property DIFF_TERM true  [get_ports ADC_17_20_FCO_P]
+set_property DIFF_TERM true  [get_ports ADC_17_20_DCO_N]
+set_property DIFF_TERM true  [get_ports ADC_17_20_DCO_P]
+
+
+
+set_property DIFF_TERM true  [get_ports ADC_21_24_D0_A_N]
+set_property DIFF_TERM true  [get_ports ADC_21_24_D0_A_P]
+set_property DIFF_TERM true  [get_ports ADC_21_24_D1_A_N]
+set_property DIFF_TERM true  [get_ports ADC_21_24_D1_A_P]
+set_property DIFF_TERM true  [get_ports ADC_21_24_D0_B_N]
+set_property DIFF_TERM true  [get_ports ADC_21_24_D0_B_P]
+set_property DIFF_TERM true  [get_ports ADC_21_24_D1_B_N]
+set_property DIFF_TERM true  [get_ports ADC_21_24_D1_B_P]
+set_property DIFF_TERM true  [get_ports ADC_21_24_D0_C_N]
+set_property DIFF_TERM true  [get_ports ADC_21_24_D0_C_P]
+set_property DIFF_TERM true  [get_ports ADC_21_24_D1_C_N]
+set_property DIFF_TERM true  [get_ports ADC_21_24_D1_C_P]
+set_property DIFF_TERM true  [get_ports ADC_21_24_D0_D_N]
+set_property DIFF_TERM true  [get_ports ADC_21_24_D0_D_P]
+set_property DIFF_TERM true  [get_ports ADC_21_24_D1_D_N]
+set_property DIFF_TERM true  [get_ports ADC_21_24_D1_D_P]
+set_property DIFF_TERM true  [get_ports ADC_21_24_FCO_N]
+set_property DIFF_TERM true  [get_ports ADC_21_24_FCO_P]
+set_property DIFF_TERM true  [get_ports ADC_21_24_DCO_N]
+set_property DIFF_TERM true  [get_ports ADC_21_24_DCO_P]
+
+
+
+set_property DIFF_TERM true  [get_ports ADC_25_28_D0_A_N]
+set_property DIFF_TERM true  [get_ports ADC_25_28_D0_A_P]
+set_property DIFF_TERM true  [get_ports ADC_25_28_D1_A_N]
+set_property DIFF_TERM true  [get_ports ADC_25_28_D1_A_P]
+set_property DIFF_TERM true  [get_ports ADC_25_28_D0_B_N]
+set_property DIFF_TERM true  [get_ports ADC_25_28_D0_B_P]
+set_property DIFF_TERM true  [get_ports ADC_25_28_D1_B_N]
+set_property DIFF_TERM true  [get_ports ADC_25_28_D1_B_P]
+set_property DIFF_TERM true  [get_ports ADC_25_28_D0_C_N]
+set_property DIFF_TERM true  [get_ports ADC_25_28_D0_C_P]
+set_property DIFF_TERM true  [get_ports ADC_25_28_D1_C_N]
+set_property DIFF_TERM true  [get_ports ADC_25_28_D1_C_P]
+set_property DIFF_TERM true  [get_ports ADC_25_28_D0_D_N]
+set_property DIFF_TERM true  [get_ports ADC_25_28_D0_D_P]
+set_property DIFF_TERM true  [get_ports ADC_25_28_D1_D_N]
+set_property DIFF_TERM true  [get_ports ADC_25_28_D1_D_P]
+set_property DIFF_TERM true  [get_ports ADC_25_28_FCO_N]
+set_property DIFF_TERM true  [get_ports ADC_25_28_FCO_P]
+set_property DIFF_TERM true  [get_ports ADC_25_28_DCO_N]
+set_property DIFF_TERM true  [get_ports ADC_25_28_DCO_P]
+
+
+
+set_property DIFF_TERM true  [get_ports ADC_29_32_D0_A_N]
+set_property DIFF_TERM true  [get_ports ADC_29_32_D0_A_P]
+set_property DIFF_TERM true  [get_ports ADC_29_32_D1_A_N]
+set_property DIFF_TERM true  [get_ports ADC_29_32_D1_A_P]
+set_property DIFF_TERM true  [get_ports ADC_29_32_D0_B_N]
+set_property DIFF_TERM true  [get_ports ADC_29_32_D0_B_P]
+set_property DIFF_TERM true  [get_ports ADC_29_32_D1_B_N]
+set_property DIFF_TERM true  [get_ports ADC_29_32_D1_B_P]
+set_property DIFF_TERM true  [get_ports ADC_29_32_D0_C_N]
+set_property DIFF_TERM true  [get_ports ADC_29_32_D0_C_P]
+set_property DIFF_TERM true  [get_ports ADC_29_32_D1_C_N]
+set_property DIFF_TERM true  [get_ports ADC_29_32_D1_C_P]
+set_property DIFF_TERM true  [get_ports ADC_29_32_D0_D_N]
+set_property DIFF_TERM true  [get_ports ADC_29_32_D0_D_P]
+set_property DIFF_TERM true  [get_ports ADC_29_32_D1_D_N]
+set_property DIFF_TERM true  [get_ports ADC_29_32_D1_D_P]
+set_property DIFF_TERM true  [get_ports ADC_29_32_FCO_N]
+set_property DIFF_TERM true  [get_ports ADC_29_32_FCO_P]
+set_property DIFF_TERM true  [get_ports ADC_29_32_DCO_N]
+set_property DIFF_TERM true  [get_ports ADC_29_32_DCO_P]
+
+
+
+
+
+set_property BITSTREAM.GENERAL.COMPRESS TRUE [current_design]
+set_property BITSTREAM.CONFIG.UNUSEDPIN Pullnone [current_design]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
