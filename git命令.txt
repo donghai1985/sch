@@ -1,0 +1,78 @@
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
+git config -l
+ssh-keygen -t rsa -C "youremail@example.com"		创建SSH Key(你的电脑与Gitee通信的安全连接)
+ssh -T git@github.com		连接GitHub,测试配置是否成功
+git clone 需要下载的ssh链接
+git push origin main
+pwd		命令用于显示当前目录
+git init	命令把这个目录变成Git可以管理的仓库
+git add xx.txt	把文件添加到仓库
+git add .
+git diff xx.txt 	查看difference
+git commit -m "提交说明"git status	命令看看结果
+git log	命令显示从最近到最远的提交日志
+git reset --hard HEAD^		回退到上一个版本
+git reset --hard HEAD^^		回退到上上一个版本
+git reset --hard HEAD~100	回退到上100个版本
+cat xx.txt	查看文件内容
+git reset --hard hard commit_id	回退到commit_id版本，版本号没必要写全，前几位就可以了
+git reflog	用来记录你的每一次命令
+git checkout -- xx.txt	把xx.txt文件在工作区的修改全部撤销
+git reset HEAD filename	把暂存区的修改撤销掉（unstage），重新放回工作区
+rm test.txt		删除工作区文件
+git rm test.txt	删除版本库文件，需要git commit
+
+git remote add origin git@github.com:donghai1985/zas.git		增加对我们在github上创建的仓库的管理
+
+git pull origin main	将库里的代码下载到本地
+git push origin main 	将文件上传到GitHub仓库中
+git remote -v		查看当前仓库的远程仓库地址和原仓库地址
+git remote show origin	显示当前仓库的名称以及与之关联的远程仓库的URL
+
+git checkout zp6		切换到ZP6分支
+git branch -a		 查看本地和远程所有分支
+git branch  -d zp6		删除本地分支
+git pull <远程主机名> <远程分支名>:<本地分支名>
+git branch --set-upstream 本地分支 远程分支		指定本地分支追踪远程分支
+git fetch --all		获取所有分支的更新
+
+git remote rename origin foo	将远程名称origin更改为foo
+git help <command> # 显示command的help  
+ 
+git show # 显示某次提交的内容 git show $id  
+ 
+git co -- <file> # 抛弃工作区修改  
+ 
+git co . # 抛弃工作区修改  
+ 
+git add <file> # 将工作文件修改提交到本地暂存区  
+ 
+git add . # 将所有修改过的工作文件提交暂存区  
+ 
+git rm <file> # 从版本库中删除文件  
+ 
+git rm <file> --cached # 从版本库中删除文件，但不删除文件  
+ 
+git reset <file> # 从暂存区恢复到工作文件  
+ 
+git reset -- . # 从暂存区恢复到工作文件  
+ 
+git reset --hard # 恢复最近一次提交过的状态，即放弃上次提交后的所有本次修改  
+ 
+git ci <file> git ci . git ci -a # 将git add, git rm和git ci等操作都合并在一起做　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+ 
+git ci --amend # 修改最后一次提交记录  
+ 
+git revert <$id> # 恢复某次提交的状态，恢复动作本身也创建次提交对象  
+ 
+git revert HEAD # 恢复最后一次提交的状态  
+
+git log <file> # 查看该文件每次提交记录  
+ 
+git log -p <file> # 查看每次详细修改内容的diff  
+ 
+git log -p -2 # 查看最近两次详细修改内容的diff  
+ 
+git log --stat #查看提交统计信息 
+
