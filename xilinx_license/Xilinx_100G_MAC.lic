@@ -1,0 +1,20 @@
+# ----- REMOVE LINES ABOVE HERE --------------------------
+#
+# This license is valid from Thu Jul 27 07:47:56 UTC 2023.
+#
+# This is license NODELOCKED to HOSTID=F47B097D7661;
+# there is no need to run lmgrd for this license.
+#
+#
+# This is a permanent license generated on Thu Jul 27 07:47:56 UTC 2023
+INCREMENT cmac_usplus xilinxd 2024.07 permanent uncounted \
+18A1F9B2850D \
+VENDOR_STRING=License_Type:Bought;dongh1227@126.com,cmac_usplus,ip,permanent,_211669163_0_0_329 \
+HOSTID=f47b097d7661 ISSUER="Xilinx Inc" NOTICE="The license \
+for this core was generated for dongh1227@126.com on \
+07/28/2023It is the responsibility of the Licensee of this \
+core to adhere to all terms and conditions of the applicable \
+license agreement when using this core." START=27-Jul-2023 \
+TS_OK
+#
+# ----- REMOVE LINES BELOW HERE --------------------------
