@@ -1,0 +1,492 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x811745E7642211",
+      "design_src": "SBD",
+      "device": "xcku060-ffva1156-2-i",
+      "name": "bd_56b1",
+      "scoped": "true",
+      "synth_flow_mode": "None",
+      "tool_version": "2019.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "ila_lib": ""
+    },
+    "interface_ports": {
+      "SLOT_0_HELLO_FPGA_CXP_DMA": {
+        "mode": "Monitor",
+        "vlnv": "visn.intranet:user:hello_fpga_cxp_dma_rtl:1.0",
+        "port_maps": {
+          "dma_data": {
+            "physical_name": "SLOT_0_HELLO_FPGA_CXP_DMA_dma_data",
+            "direction": "I",
+            "left": "255",
+            "right": "0"
+          },
+          "dma_ready": {
+            "physical_name": "SLOT_0_HELLO_FPGA_CXP_DMA_dma_ready",
+            "direction": "I",
+            "left": "0",
+            "right": "0"
+          },
+          "dma_valid": {
+            "physical_name": "SLOT_0_HELLO_FPGA_CXP_DMA_dma_valid",
+            "direction": "I",
+            "left": "0",
+            "right": "0"
+          },
+          "dma_sop": {
+            "physical_name": "SLOT_0_HELLO_FPGA_CXP_DMA_dma_sop",
+            "direction": "I",
+            "left": "0",
+            "right": "0"
+          },
+          "dma_eop": {
+            "physical_name": "SLOT_0_HELLO_FPGA_CXP_DMA_dma_eop",
+            "direction": "I",
+            "left": "0",
+            "right": "0"
+          },
+          "dma_sol": {
+            "physical_name": "SLOT_0_HELLO_FPGA_CXP_DMA_dma_sol",
+            "direction": "I",
+            "left": "0",
+            "right": "0"
+          },
+          "dma_eol": {
+            "physical_name": "SLOT_0_HELLO_FPGA_CXP_DMA_dma_eol",
+            "direction": "I",
+            "left": "0",
+            "right": "0"
+          },
+          "dma_empty": {
+            "physical_name": "SLOT_0_HELLO_FPGA_CXP_DMA_dma_empty",
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          }
+        }
+      },
+      "SLOT_1_CXP_VIDEO_HEADER": {
+        "mode": "Monitor",
+        "vlnv": "Hello_FPGA:CXP:cxp_video_header_rtl:1.0",
+        "port_maps": {
+          "video_dsize": {
+            "physical_name": "SLOT_1_CXP_VIDEO_HEADER_video_dsize",
+            "direction": "I",
+            "left": "23",
+            "right": "0"
+          },
+          "video_pixel_format": {
+            "physical_name": "SLOT_1_CXP_VIDEO_HEADER_video_pixel_format",
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "video_xsize": {
+            "physical_name": "SLOT_1_CXP_VIDEO_HEADER_video_xsize",
+            "direction": "I",
+            "left": "23",
+            "right": "0"
+          },
+          "video_image_hdr_valid": {
+            "physical_name": "SLOT_1_CXP_VIDEO_HEADER_video_image_hdr_valid",
+            "direction": "I",
+            "left": "0",
+            "right": "0"
+          },
+          "video_ysize": {
+            "physical_name": "SLOT_1_CXP_VIDEO_HEADER_video_ysize",
+            "direction": "I",
+            "left": "23",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "ports": {
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "cxp_host_clk_wiz_0_0_clk_out1",
+            "value_src": "default_prop"
+          },
+          "FREQ_HZ": {
+            "value": "250000000",
+            "value_src": "default_prop"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default_prop"
+          }
+        }
+      },
+      "probe0": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "probe1": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "probe2": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "probe3": {
+        "direction": "I",
+        "left": "0",
+        "right": "0"
+      },
+      "SLOT_0_HELLO_FPGA_CXP_DMA_dma_data": {
+        "direction": "I",
+        "left": "255",
+        "right": "0"
+      },
+      "SLOT_0_HELLO_FPGA_CXP_DMA_dma_ready": {
+        "direction": "I",
+        "left": "0",
+        "right": "0"
+      },
+      "SLOT_0_HELLO_FPGA_CXP_DMA_dma_valid": {
+        "direction": "I",
+        "left": "0",
+        "right": "0"
+      },
+      "SLOT_0_HELLO_FPGA_CXP_DMA_dma_sop": {
+        "direction": "I",
+        "left": "0",
+        "right": "0"
+      },
+      "SLOT_0_HELLO_FPGA_CXP_DMA_dma_eop": {
+        "direction": "I",
+        "left": "0",
+        "right": "0"
+      },
+      "SLOT_0_HELLO_FPGA_CXP_DMA_dma_sol": {
+        "direction": "I",
+        "left": "0",
+        "right": "0"
+      },
+      "SLOT_0_HELLO_FPGA_CXP_DMA_dma_eol": {
+        "direction": "I",
+        "left": "0",
+        "right": "0"
+      },
+      "SLOT_0_HELLO_FPGA_CXP_DMA_dma_empty": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "SLOT_1_CXP_VIDEO_HEADER_video_dsize": {
+        "direction": "I",
+        "left": "23",
+        "right": "0"
+      },
+      "SLOT_1_CXP_VIDEO_HEADER_video_pixel_format": {
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "SLOT_1_CXP_VIDEO_HEADER_video_xsize": {
+        "direction": "I",
+        "left": "23",
+        "right": "0"
+      },
+      "SLOT_1_CXP_VIDEO_HEADER_video_image_hdr_valid": {
+        "direction": "I",
+        "left": "0",
+        "right": "0"
+      },
+      "SLOT_1_CXP_VIDEO_HEADER_video_ysize": {
+        "direction": "I",
+        "left": "23",
+        "right": "0"
+      }
+    },
+    "components": {
+      "ila_lib": {
+        "vlnv": "xilinx.com:ip:ila:6.2",
+        "xci_name": "bd_56b1_ila_lib_0",
+        "parameters": {
+          "ALL_PROBE_SAME_MU": {
+            "value": "TRUE"
+          },
+          "ALL_PROBE_SAME_MU_CNT": {
+            "value": "1"
+          },
+          "C_ADV_TRIGGER": {
+            "value": "FALSE"
+          },
+          "C_DATA_DEPTH": {
+            "value": "1024"
+          },
+          "C_EN_STRG_QUAL": {
+            "value": "0"
+          },
+          "C_EN_TIME_TAG": {
+            "value": "0"
+          },
+          "C_ILA_CLK_FREQ": {
+            "value": "250000000"
+          },
+          "C_INPUT_PIPE_STAGES": {
+            "value": "0"
+          },
+          "C_MONITOR_TYPE": {
+            "value": "Native"
+          },
+          "C_NUM_OF_PROBES": {
+            "value": "17"
+          },
+          "C_PROBE0_MU_CNT": {
+            "value": "1"
+          },
+          "C_PROBE0_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE0_WIDTH": {
+            "value": "4"
+          },
+          "C_PROBE10_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE10_WIDTH": {
+            "value": "1"
+          },
+          "C_PROBE11_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE11_WIDTH": {
+            "value": "4"
+          },
+          "C_PROBE12_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE12_WIDTH": {
+            "value": "24"
+          },
+          "C_PROBE13_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE13_WIDTH": {
+            "value": "16"
+          },
+          "C_PROBE14_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE14_WIDTH": {
+            "value": "24"
+          },
+          "C_PROBE15_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE15_WIDTH": {
+            "value": "1"
+          },
+          "C_PROBE16_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE16_WIDTH": {
+            "value": "24"
+          },
+          "C_PROBE1_MU_CNT": {
+            "value": "1"
+          },
+          "C_PROBE1_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE1_WIDTH": {
+            "value": "4"
+          },
+          "C_PROBE2_MU_CNT": {
+            "value": "1"
+          },
+          "C_PROBE2_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE2_WIDTH": {
+            "value": "4"
+          },
+          "C_PROBE3_MU_CNT": {
+            "value": "1"
+          },
+          "C_PROBE3_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE3_WIDTH": {
+            "value": "1"
+          },
+          "C_PROBE4_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE4_WIDTH": {
+            "value": "256"
+          },
+          "C_PROBE5_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE5_WIDTH": {
+            "value": "1"
+          },
+          "C_PROBE6_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE6_WIDTH": {
+            "value": "1"
+          },
+          "C_PROBE7_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE7_WIDTH": {
+            "value": "1"
+          },
+          "C_PROBE8_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE8_WIDTH": {
+            "value": "1"
+          },
+          "C_PROBE9_TYPE": {
+            "value": "0"
+          },
+          "C_PROBE9_WIDTH": {
+            "value": "1"
+          },
+          "C_TIME_TAG_WIDTH": {
+            "value": "32"
+          },
+          "C_TRIGIN_EN": {
+            "value": "false"
+          },
+          "C_TRIGOUT_EN": {
+            "value": "false"
+          },
+          "C_XLNX_HW_PROBE_INFO": {
+            "value": "DEFAULT"
+          }
+        }
+      }
+    },
+    "nets": {
+      "clk_1": {
+        "ports": [
+          "clk",
+          "ila_lib/clk"
+        ]
+      },
+      "probe0_1": {
+        "ports": [
+          "probe0",
+          "ila_lib/probe0"
+        ]
+      },
+      "probe1_1": {
+        "ports": [
+          "probe1",
+          "ila_lib/probe1"
+        ]
+      },
+      "probe2_1": {
+        "ports": [
+          "probe2",
+          "ila_lib/probe2"
+        ]
+      },
+      "probe3_1": {
+        "ports": [
+          "probe3",
+          "ila_lib/probe3"
+        ]
+      },
+      "SLOT_0_HELLO_FPGA_CXP_DMA_dma_data_1": {
+        "ports": [
+          "SLOT_0_HELLO_FPGA_CXP_DMA_dma_data",
+          "ila_lib/probe4"
+        ]
+      },
+      "SLOT_0_HELLO_FPGA_CXP_DMA_dma_ready_1": {
+        "ports": [
+          "SLOT_0_HELLO_FPGA_CXP_DMA_dma_ready",
+          "ila_lib/probe5"
+        ]
+      },
+      "SLOT_0_HELLO_FPGA_CXP_DMA_dma_valid_1": {
+        "ports": [
+          "SLOT_0_HELLO_FPGA_CXP_DMA_dma_valid",
+          "ila_lib/probe6"
+        ]
+      },
+      "SLOT_0_HELLO_FPGA_CXP_DMA_dma_sop_1": {
+        "ports": [
+          "SLOT_0_HELLO_FPGA_CXP_DMA_dma_sop",
+          "ila_lib/probe7"
+        ]
+      },
+      "SLOT_0_HELLO_FPGA_CXP_DMA_dma_eop_1": {
+        "ports": [
+          "SLOT_0_HELLO_FPGA_CXP_DMA_dma_eop",
+          "ila_lib/probe8"
+        ]
+      },
+      "SLOT_0_HELLO_FPGA_CXP_DMA_dma_sol_1": {
+        "ports": [
+          "SLOT_0_HELLO_FPGA_CXP_DMA_dma_sol",
+          "ila_lib/probe9"
+        ]
+      },
+      "SLOT_0_HELLO_FPGA_CXP_DMA_dma_eol_1": {
+        "ports": [
+          "SLOT_0_HELLO_FPGA_CXP_DMA_dma_eol",
+          "ila_lib/probe10"
+        ]
+      },
+      "SLOT_0_HELLO_FPGA_CXP_DMA_dma_empty_1": {
+        "ports": [
+          "SLOT_0_HELLO_FPGA_CXP_DMA_dma_empty",
+          "ila_lib/probe11"
+        ]
+      },
+      "SLOT_1_CXP_VIDEO_HEADER_video_dsize_1": {
+        "ports": [
+          "SLOT_1_CXP_VIDEO_HEADER_video_dsize",
+          "ila_lib/probe12"
+        ]
+      },
+      "SLOT_1_CXP_VIDEO_HEADER_video_pixel_format_1": {
+        "ports": [
+          "SLOT_1_CXP_VIDEO_HEADER_video_pixel_format",
+          "ila_lib/probe13"
+        ]
+      },
+      "SLOT_1_CXP_VIDEO_HEADER_video_xsize_1": {
+        "ports": [
+          "SLOT_1_CXP_VIDEO_HEADER_video_xsize",
+          "ila_lib/probe14"
+        ]
+      },
+      "SLOT_1_CXP_VIDEO_HEADER_video_image_hdr_valid_1": {
+        "ports": [
+          "SLOT_1_CXP_VIDEO_HEADER_video_image_hdr_valid",
+          "ila_lib/probe15"
+        ]
+      },
+      "SLOT_1_CXP_VIDEO_HEADER_video_ysize_1": {
+        "ports": [
+          "SLOT_1_CXP_VIDEO_HEADER_video_ysize",
+          "ila_lib/probe16"
+        ]
+      }
+    }
+  }
+}
