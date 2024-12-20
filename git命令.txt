@@ -22,7 +22,6 @@ git checkout -- xx.txt	把xx.txt文件在工作区的修改全部撤销
 git reset HEAD filename	把暂存区的修改撤销掉（unstage），重新放回工作区
 rm test.txt		删除工作区文件
 git rm test.txt	删除版本库文件，需要git commit
-
 git remote add origin git@github.com:donghai1985/zas.git		增加对我们在github上创建的仓库的管理
 
 git pull origin main	将库里的代码下载到本地
