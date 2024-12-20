@@ -1,0 +1,2 @@
+adc_cross_fifo.v,verilog,xil_defaultlib,../../../ip/adc_cross_fifo/sim/adc_cross_fifo.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Oct 10 09:33:19 2024
+# Process ID: 17896
+# Current directory: E:/cap32ch_ku060/cap32_ad9253_nofir_1010_acc/fpga_prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9840 E:\cap32ch_ku060\cap32_ad9253_nofir_1010_acc\fpga_prj\template.xpr
+# Log file: E:/cap32ch_ku060/cap32_ad9253_nofir_1010_acc/fpga_prj/vivado.log
+# Journal file: E:/cap32ch_ku060/cap32_ad9253_nofir_1010_acc/fpga_prj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/cap32ch_ku060/cap32_ad9253_nofir_1010_acc/fpga_prj/template.xpr
+INFO: [Project 1-313] Project file moved from 'E:/cap32ch_ku060/cap32_ad9253_nofir_1001_acc/fpga_prj' since last save.
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'E:/cap32ch_ku060/cap32_ad9253_test/fpga_prj/template.cache/ip'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx2021/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:14 . Memory (MB): peak = 1211.422 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 11 09:19:55 2024...

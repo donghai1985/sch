@@ -1,0 +1,2 @@
+afifo_w512r128.v,verilog,xil_defaultlib,../../../ip/afifo_w512r128/sim/afifo_w512r128.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

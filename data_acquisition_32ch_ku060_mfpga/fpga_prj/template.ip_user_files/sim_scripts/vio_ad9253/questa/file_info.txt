@@ -1,0 +1,6 @@
+xpm_cdc.sv,systemverilog,xpm,D:/Xilinx2021/Vivado/2021.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,incdir="../../../../template.gen/sources_1/ip/vio_ad9253/hdl/verilog"incdir="../../../../template.gen/sources_1/ip/vio_ad9253/hdl"
+xpm_fifo.sv,systemverilog,xpm,D:/Xilinx2021/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv,incdir="../../../../template.gen/sources_1/ip/vio_ad9253/hdl/verilog"incdir="../../../../template.gen/sources_1/ip/vio_ad9253/hdl"
+xpm_memory.sv,systemverilog,xpm,D:/Xilinx2021/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv,incdir="../../../../template.gen/sources_1/ip/vio_ad9253/hdl/verilog"incdir="../../../../template.gen/sources_1/ip/vio_ad9253/hdl"
+xpm_VCOMP.vhd,vhdl,xpm,D:/Xilinx2021/Vivado/2021.1/data/ip/xpm/xpm_VCOMP.vhd,incdir="../../../../template.gen/sources_1/ip/vio_ad9253/hdl/verilog"incdir="../../../../template.gen/sources_1/ip/vio_ad9253/hdl"
+vio_ad9253.v,verilog,xil_defaultlib,../../../../template.gen/sources_1/ip/vio_ad9253/sim/vio_ad9253.v,incdir="../../../../template.gen/sources_1/ip/vio_ad9253/hdl/verilog"incdir="../../../../template.gen/sources_1/ip/vio_ad9253/hdl"
+glbl.v,Verilog,xil_defaultlib,glbl.v

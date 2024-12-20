@@ -1,0 +1,2 @@
+fir_coe_vio.v,verilog,xil_defaultlib,../../../ip/fir_coe_vio/sim/fir_coe_vio.v,incdir="../../../ip/fir_coe_vio/hdl/verilog"incdir="../../../ip/fir_coe_vio/hdl"
+glbl.v,Verilog,xil_defaultlib,glbl.v

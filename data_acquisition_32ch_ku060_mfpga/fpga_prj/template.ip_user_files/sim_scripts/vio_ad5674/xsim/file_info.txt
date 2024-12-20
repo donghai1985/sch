@@ -1,0 +1,2 @@
+vio_ad5674.v,verilog,xil_defaultlib,../../../ip/vio_ad5674/sim/vio_ad5674.v,incdir="../../../ip/vio_ad5674/hdl/verilog"incdir="../../../ip/vio_ad5674/hdl"
+glbl.v,Verilog,xil_defaultlib,glbl.v

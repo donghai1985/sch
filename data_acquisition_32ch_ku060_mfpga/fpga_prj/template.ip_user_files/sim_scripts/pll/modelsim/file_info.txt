@@ -1,0 +1,3 @@
+pll_clk_wiz.v,verilog,xil_defaultlib,../../../../template.gen/sources_1/ip/pll/pll_clk_wiz.v,incdir="../../../ipstatic"incdir="../../../../template.gen/sources_1/ip/pll"
+pll.v,verilog,xil_defaultlib,../../../../template.gen/sources_1/ip/pll/pll.v,incdir="../../../ipstatic"incdir="../../../../template.gen/sources_1/ip/pll"
+glbl.v,Verilog,xil_defaultlib,glbl.v

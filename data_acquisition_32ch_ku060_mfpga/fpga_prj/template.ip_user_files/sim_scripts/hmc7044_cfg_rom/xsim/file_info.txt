@@ -1,0 +1,2 @@
+hmc7044_cfg_rom.v,verilog,xil_defaultlib,../../../../template.gen/sources_1/ip/hmc7044_cfg_rom/sim/hmc7044_cfg_rom.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

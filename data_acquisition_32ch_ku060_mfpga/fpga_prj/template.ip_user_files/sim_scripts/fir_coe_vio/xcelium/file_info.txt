@@ -1,0 +1,6 @@
+xpm_cdc.sv,systemverilog,xpm,D:/Xilinx2021/Vivado/2021.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,incdir="../../../ip/fir_coe_vio/hdl/verilog"incdir="../../../ip/fir_coe_vio/hdl"
+xpm_fifo.sv,systemverilog,xpm,D:/Xilinx2021/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv,incdir="../../../ip/fir_coe_vio/hdl/verilog"incdir="../../../ip/fir_coe_vio/hdl"
+xpm_memory.sv,systemverilog,xpm,D:/Xilinx2021/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv,incdir="../../../ip/fir_coe_vio/hdl/verilog"incdir="../../../ip/fir_coe_vio/hdl"
+xpm_VCOMP.vhd,vhdl,xpm,D:/Xilinx2021/Vivado/2021.1/data/ip/xpm/xpm_VCOMP.vhd,incdir="../../../ip/fir_coe_vio/hdl/verilog"incdir="../../../ip/fir_coe_vio/hdl"
+fir_coe_vio.v,verilog,xil_defaultlib,../../../ip/fir_coe_vio/sim/fir_coe_vio.v,incdir="../../../ip/fir_coe_vio/hdl/verilog"incdir="../../../ip/fir_coe_vio/hdl"
+glbl.v,Verilog,xil_defaultlib,glbl.v

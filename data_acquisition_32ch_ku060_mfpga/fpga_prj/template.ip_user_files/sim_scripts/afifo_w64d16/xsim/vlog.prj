@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../template.gen/sources_1/ip/afifo_w64d16/sim/afifo_w64d16.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

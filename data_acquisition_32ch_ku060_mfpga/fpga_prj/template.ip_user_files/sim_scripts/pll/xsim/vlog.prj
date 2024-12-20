@@ -1,0 +1,7 @@
+verilog xil_defaultlib --include "../../../../template.gen/sources_1/ip/pll" \
+"../../../../template.gen/sources_1/ip/pll/pll_clk_wiz.v" \
+"../../../../template.gen/sources_1/ip/pll/pll.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

@@ -1,0 +1,223 @@
+/*
+
+Xilinx Vivado v2021.1 (64-bit) [Major: 2021, Minor: 1]
+SW Build: 3247384 on Thu Jun 10 19:36:33 MDT 2021
+IP Build: 3246043 on Fri Jun 11 00:30:35 MDT 2021
+
+Process ID (PID): 3824
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Thu Jun 06 09:06:17 GMT+08:00 2024
+Time zone: 	GMT+08:00 (GMT+08:00)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=15
+Scale size: 19
+
+Java version: 	11.0.2 64-bit
+Java home: 	D:/Xilinx2021/Vivado/2021.1/tps/win64/jre11.0.2
+Java executable: 	D:/Xilinx2021/Vivado/2021.1/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	20230707
+User home directory: C:/Users/20230707
+User working directory: E:/cap32ch_ku060/cap32_ad9253_nofir_0605/fpga_prj
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/Xilinx2021/Vivado
+HDI_APPROOT: D:/Xilinx2021/Vivado/2021.1
+RDI_DATADIR: D:/Xilinx2021/Vivado/2021.1/data
+RDI_BINDIR: D:/Xilinx2021/Vivado/2021.1/bin
+
+Vivado preferences file: C:/Users/20230707/AppData/Roaming/Xilinx/Vivado/2021.1/vivado.xml
+Vivado preferences directory: C:/Users/20230707/AppData/Roaming/Xilinx/Vivado/2021.1/
+Vivado layouts directory: C:/Users/20230707/AppData/Roaming/Xilinx/Vivado/2021.1/data/layouts
+PlanAhead jar file: 	D:/Xilinx2021/Vivado/2021.1/lib/classes/planAhead.jar
+Vivado log file: 	E:/cap32ch_ku060/cap32_ad9253_nofir_0605/fpga_prj/vivado.log
+Vivado journal file: 	E:/cap32ch_ku060/cap32_ad9253_nofir_0605/fpga_prj/vivado.jou
+Engine tmp dir: 	E:/cap32ch_ku060/cap32_ad9253_nofir_0605/fpga_prj/.Xil/Vivado-3824-wangqiuhua
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Xilinx2021/Vivado/2021.1/ids_lite/ISE
+XILINX_DSP: D:/Xilinx2021/Vivado/2021.1/ids_lite/ISE
+XILINX_HLS: D:/Xilinx2021/Vitis_HLS/2021.1
+XILINX_PLANAHEAD: D:/Xilinx2021/Vivado/2021.1
+XILINX_SDK: D:/Xilinx2021/Vitis/2021.1
+XILINX_VITIS: D:/Xilinx2021/Vitis/2021.1
+XILINX_VIVADO: D:/Xilinx2021/Vivado/2021.1
+XILINX_VIVADO_HLS: D:/Xilinx2021/Vivado/2021.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,181 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 109 MB (+111411kb) [00:00:06]
+// [Engine Memory]: 1,181 MB (+1087175kb) [00:00:06]
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: E:\cap32ch_ku060\cap32_ad9253_nofir_0605\fpga_prj\template.xpr. Version: Vivado v2021.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project E:/cap32ch_ku060/cap32_ad9253_nofir_0605/fpga_prj/template.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,181 MB. GUI used memory: 65 MB. Current time: 6/6/24, 9:06:18 AM GMT+08:00
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/cap32ch_ku060/cap32_ad9253_nofir_0605/fpga_prj/template.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx2021/Vivado/2021.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 140 MB (+27242kb) [00:00:17]
+// WARNING: HEventQueue.dispatchEvent() is taking  3123 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:14 . Memory (MB): peak = 1210.941 ; gain = 0.000 
+// Project name: template; location: E:/cap32ch_ku060/cap32_ad9253_nofir_0605/fpga_prj; part: xcku060-ffva1156-2-i
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 155 MB (+8752kb) [00:00:27]
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 164 MB (+303kb) [00:03:07]
+// [GUI Memory]: 172 MB (+45kb) [00:03:41]
+// Elapsed time: 201 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aK
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cap32_mfpga_top (cap32_mfpga_top.v)]", 1); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cap32_mfpga_top (cap32_mfpga_top.v), u_ad9253_data_process : ad9253_data_process (ad9253_data_process.v)]", 8, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cap32_mfpga_top (cap32_mfpga_top.v), u_ad9253_data_process : ad9253_data_process (ad9253_data_process.v)]", 8, true, false, false, false, false, true); // D - Double Click - Node
+// Launch External Editor: 'C:/ruanjian/Notepad++/notepad++.exe "E:/cap32ch_ku060/cap32_ad9253_nofir_0605/rtl/ad9253/ad9253_data_process.v" -n1'
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cap32_mfpga_top (cap32_mfpga_top.v), u_ad9253_data_process : ad9253_data_process (ad9253_data_process.v)]", 8, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ak
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ak
+selectMenuItem(PAResourceCommand.PACommandNames_GOTO_INSTANTIATION, "Go to Source"); // an
+// Run Command: PAResourceCommand.PACommandNames_GOTO_INSTANTIATION
+// Launch External Editor: 'C:/ruanjian/Notepad++/notepad++.exe "E:/cap32ch_ku060/cap32_ad9253_nofir_0605/rtl/cap32_mfpga_top.v" -n932'
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cap32_mfpga_top (cap32_mfpga_top.v), u_ad9253_data_process : ad9253_data_process (ad9253_data_process.v), u_sync_fifo_data : cmip_sync_fifo (cmip_sync_fifo.v)]", 14, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cap32_mfpga_top (cap32_mfpga_top.v), u_ad9253_data_process : ad9253_data_process (ad9253_data_process.v), u_sync_fifo_data : cmip_sync_fifo (cmip_sync_fifo.v)]", 14, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ak
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ak
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cap32_mfpga_top (cap32_mfpga_top.v), u_ad9253_data_process : ad9253_data_process (ad9253_data_process.v), u_sync_fifo_data : cmip_sync_fifo (cmip_sync_fifo.v)]", 14); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cap32_mfpga_top (cap32_mfpga_top.v), u_ad9253_data_process : ad9253_data_process (ad9253_data_process.v), u_sync_fifo_data : cmip_sync_fifo (cmip_sync_fifo.v)]", 14); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cap32_mfpga_top (cap32_mfpga_top.v), u_ad9253_data_process : ad9253_data_process (ad9253_data_process.v), u_sync_fifo_data : cmip_sync_fifo (cmip_sync_fifo.v)]", 14, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ak
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ak
+selectMenuItem(PAResourceCommand.PACommandNames_GOTO_INSTANTIATION, "Go to Source"); // an
+// Run Command: PAResourceCommand.PACommandNames_GOTO_INSTANTIATION
+// Launch External Editor: 'C:/ruanjian/Notepad++/notepad++.exe "E:/cap32ch_ku060/cap32_ad9253_nofir_0605/rtl/ad9253/ad9253_data_process.v" -n173'
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 47 seconds
+selectButton(RDIResourceCommand.RDICommands_SETTINGS, "settings"); // E
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// d (cs): Settings: addNotify
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Synthesis]", 3, false); // B
+// Elapsed time: 11 seconds
+dismissDialog("Settings"); // d
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cap32_mfpga_top (cap32_mfpga_top.v), u_ad9253_data_process : ad9253_data_process (ad9253_data_process.v)]", 8); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 35); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 36); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, timing.xdc]", 40, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, timing.xdc]", 40, false, false, false, false, false, true); // D - Double Click
+// [GUI Memory]: 199 MB (+19505kb) [00:05:19]
+// Launch External Editor: 'C:/ruanjian/Notepad++/notepad++.exe "E:/cap32ch_ku060/cap32_ad9253_nofir_0605/xdc/timing.xdc" -n0'
+// [GUI Memory]: 224 MB (+15614kb) [00:05:19]
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 94 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 36); // D
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // E
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// 'cA' command handler elapsed time: 3 seconds
+dismissDialog("Resetting Runs"); // bz
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Jun  6 09:13:11 2024] Launched synth_1... Run output will be captured here: E:/cap32ch_ku060/cap32_ad9253_nofir_0605/fpga_prj/template.runs/synth_1/runme.log [Thu Jun  6 09:13:11 2024] Launched impl_1... Run output will be captured here: E:/cap32ch_ku060/cap32_ad9253_nofir_0605/fpga_prj/template.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 1035 seconds
+selectTab(PAResourceOtoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_PANEL_TABBED, PAResourceOtoP.ProjectSummaryUtilizationPanel_TABLE, "Table", 1); // f
+// HMemoryUtils.trashcanNow. Engine heap size: 1,200 MB. GUI used memory: 109 MB. Current time: 6/6/24, 9:36:19 AM GMT+08:00
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 472 seconds
+selectTab(PAResourceOtoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_PANEL_TABBED, PAResourceOtoP.ProjectSummaryUtilizationPanel_TABLE, "Table", 1); // f
+selectTable(PAResourceOtoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_TABLE, "LUTRAM ; 1998 ; 146880 ; 1.3602941", 1, "1998", 1); // s
+selectTable(PAResourceOtoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_TABLE, "FF ; 48062 ; 663360 ; 7.2452364", 2, "48062", 1); // s
+selectTable(PAResourceOtoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_TABLE, "BRAM ; 66.5 ; 1080 ; 6.1574078", 3, "66.5", 1); // s
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cs): Bitstream Generation Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,201 MB. GUI used memory: 111 MB. Current time: 6/6/24, 9:38:49 AM GMT+08:00
+// Elapsed time: 63 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Bitstream Generation Completed"); // ag

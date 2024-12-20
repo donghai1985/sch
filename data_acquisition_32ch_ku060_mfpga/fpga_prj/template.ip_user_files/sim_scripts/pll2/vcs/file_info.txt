@@ -1,0 +1,7 @@
+xpm_cdc.sv,systemverilog,xpm,D:/Xilinx2021/Vivado/2021.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,incdir="$ref_dir/../../../ipstatic"incdir="../../../../template.gen/sources_1/ip/pll2"
+xpm_fifo.sv,systemverilog,xpm,D:/Xilinx2021/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv,incdir="$ref_dir/../../../ipstatic"incdir="../../../../template.gen/sources_1/ip/pll2"
+xpm_memory.sv,systemverilog,xpm,D:/Xilinx2021/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv,incdir="$ref_dir/../../../ipstatic"incdir="../../../../template.gen/sources_1/ip/pll2"
+xpm_VCOMP.vhd,vhdl,xpm,D:/Xilinx2021/Vivado/2021.1/data/ip/xpm/xpm_VCOMP.vhd,incdir="$ref_dir/../../../ipstatic"incdir="../../../../template.gen/sources_1/ip/pll2"
+pll2_clk_wiz.v,verilog,xil_defaultlib,../../../../template.gen/sources_1/ip/pll2/pll2_clk_wiz.v,incdir="$ref_dir/../../../ipstatic"incdir="../../../../template.gen/sources_1/ip/pll2"
+pll2.v,verilog,xil_defaultlib,../../../../template.gen/sources_1/ip/pll2/pll2.v,incdir="$ref_dir/../../../ipstatic"incdir="../../../../template.gen/sources_1/ip/pll2"
+glbl.v,Verilog,xil_defaultlib,glbl.v

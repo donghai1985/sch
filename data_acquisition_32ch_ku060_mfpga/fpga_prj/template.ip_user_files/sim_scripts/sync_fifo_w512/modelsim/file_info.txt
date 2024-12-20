@@ -1,0 +1,2 @@
+sync_fifo_w512.v,verilog,xil_defaultlib,../../../ip/sync_fifo_w512/sim/sync_fifo_w512.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v
