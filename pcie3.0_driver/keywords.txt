@@ -1,0 +1,47 @@
+<StepBegin> Gen and Set PMT32[PMT_1] Fir Param.
+Begin to set PMT_1_32 fir tap, pkg: 2, retry times: 1
+<Begin> Enable FirFilter.
+<StepBegin> Set PMT[PMT_1] FirFilter Enable[True]
+
+
+扫描开始：
+<Begin> Start FPGA Main Scan..
+
+
+<End> Success: Stop FPGA EDS.
+
+
+ADC偏置相关：
+Success: Set PMT[PMT_1] ADC Offset
+
+
+
+读写取寄存器：
+[Send] 00 00 01 23
+13:48:11.145 [ZASPCG: CmmForFPGA] [DEBUG]: [TID23036] [Read 13:48:11.11][0364] Result: OK, IntValue: 997, HexValue: 03E5
+
+高压设置相关
+PMT_1 hv
+Set PMT[PMT_1] HV:Write[520],Read[519.994]
+
+
+(Source Track Index)   查看track
+
+
+
+
+
+
+读取FIR下发表格实际次数
+11:28:14.411 [ZASPCG: CmmForFPGA] [DEBUG]: [TID10492] Begin to read PMT_1_32 fir pkg count, retry times: 1
+11:28:14.411 [ZASPCG: CmmForFPGA] [DEBUG]: [TID3332] [Recv] 00 04 01 23 01 68 A1 80 00 00 00 FF
+
+
+
+13:07:04.474 [ZASPCG: CmmForFPGA] [DEBUG]: [TID11440] Begin to read PMT_1_32 fir param, addr: 0000, retry times: 1
+13:07:04.475 [ZASPCG: CmmForFPGA] [DEBUG]: [TID17444] [Send] 00 00 10 01 00 00 00 00
+13:07:04.475 [ZASPCG: CmmForFPGA] [DEBUG]: [TID17444] Send Data Count: 8
+13:07:04.475 [ZASPCG: CmmForFPGA] [DEBUG]: [TID24908] [Recv] 00 01 00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+

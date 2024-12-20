@@ -1,0 +1,16 @@
+13:42:25.526 [LogClient] [NORMAL]: Log client start
+13:46:02.947 [LogClient] [NORMAL]: Log client stop
+14:23:29.605 [LogClient] [NORMAL]: Log client start
+14:39:04.471 [LogClient] [NORMAL]: Log client stop
+14:39:39.818 [LogClient] [NORMAL]: Log client start
+14:47:08.340 [LogClient] [NORMAL]: Log client stop
+14:50:07.722 [LogClient] [NORMAL]: Log client start
+14:50:16.049 [LogClient] [NORMAL]: Log client stop
+15:45:48.003 [LogClient] [NORMAL]: Log client start
+15:45:55.555 [LogClient] [NORMAL]: Log client stop
+16:19:45.571 [LogClient] [NORMAL]: Log client start
+16:19:52.999 [LogClient] [NORMAL]: Log client stop
+17:32:54.218 [LogClient] [NORMAL]: Log client start
+17:33:08.017 [IMCAssist] [ERROR]: [TID5960] [TID5960] write_device | 34 | Error setting file pointer, win32 error code: 0
+
+17:33:39.721 [LogClient] [NORMAL]: Log client stop

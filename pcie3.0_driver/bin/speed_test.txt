@@ -1,0 +1,15 @@
+右击管理员身份运行，DataProcWcfHosting.exe
+双击运行DataProcServiceProxy.exe
+APP 路径：D:\Code\Data\Bin\DataPC\x64\Release
+
+
+.\xdma_rw.exe user read 0x00080000 -l 256
+.\xdma_rw.exe user write 0x000800A0 -l 4 0x00 0x00 0x00 0x00
+.\xdma_rw.exe c2h_0 read 0x00000000 -b -f data8m_1.bin -l 8388608
+
+
+import os
+cmd = 'xdma_rw.exe user read 0x00080000 -l 256'  
+os.system(cmd)
+
+
